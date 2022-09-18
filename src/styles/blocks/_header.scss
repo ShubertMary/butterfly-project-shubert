@@ -1,22 +1,11 @@
 .header {
+  position: fixed;
+  z-index: 1000;
+
+  width: 100%;
   background-color: $color-dark;
   color: $color-light;
-  ul {
-    display: flex;
-    a {
-      display: block;
-      color: $color-light;
-      &:hover {
-        background-color: $color-btn;
-      }
-      // ЕСТЬ ЗАЗОР при выставл paddinga вручную, ЧТО ДЕЛАТЬ
-      text-transform: uppercase;
-    }
-  }
 
-  li {
-    margin-left: 10px;
-  }
 }
 
 .header-inner {
@@ -34,5 +23,7 @@
 }
 
 .logo {
-  @include logo;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
 }

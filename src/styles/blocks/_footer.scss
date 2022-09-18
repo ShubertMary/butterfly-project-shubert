@@ -1,3 +1,41 @@
+.footer {
+  width: 100%;
+  background-color: $color-dark;
+  color: $color-light;
+  ul {
+    display: flex;
+    margin-left: 45px;
+  }
+  li {
+    margin-left: 15px;
+  }
+}
+
 .footer-inner {
   @include inner;
 }
+
+.footer-row {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrap-footer {
+  padding: 31px 0;
+}
+
+.phone {
+  color: $color-light;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.social-icon {
+  display: block;
+  height: 26px;
+  width: 26px;
+  background-size: contain;
+  background-position: center center;
+}
+
